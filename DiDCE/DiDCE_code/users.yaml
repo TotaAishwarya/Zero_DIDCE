@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    user1:
+      email: user1@example.com
+      name: User One
+      password: $2b$12$XXXXXXXXXXXXXX  # Use hashed password
+cookie:
+  name: session
+  key: secret
+  expiry_days: 1
